@@ -1,0 +1,52 @@
+{
+  "login": [
+    {
+      "name": "rajnik",
+      "password": "123"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Pizza Hut",
+      "email": "pizza@xyz.com",
+      "ratings": "4.4",
+      "address": "gujarat",
+      "id": 1
+    },
+    {
+      "name": "Reprica",
+      "email": "reprica@xyz.com",
+      "ratings": "3.5",
+      "address": "Delhi",
+      "id": 2
+    },
+    {
+      "name": "Dominoz",
+      "email": "Dominozca@xyzw.com",
+      "ratings": "4.4",
+      "address": "Maharashtra",
+      "id": 3
+    },
+    {
+      "id": 5,
+      "name": "Honest",
+      "email": "honest@xyz.com",
+      "address": "ahemdabad",
+      "ratings": "4.5"
+    },
+    {
+      "name": "Haldiram",
+      "email": "haldiram@xyz.com",
+      "ratings": "4.0",
+      "address": "haryana",
+      "id": 6
+    },
+    {
+      "name": "mehfil",
+      "email": "mehfil@gmail.com",
+      "ratings": "4.4",
+      "address": "ahemdabad",
+      "id": 7
+    }
+  ]
+}
