@@ -13,7 +13,7 @@ import withRouter from './withRouter';
   }
   componentDidMount()
   {
-    fetch(`http://localhost:3000/restaurants/${this.props.router.params.id}`).then((response)=>{
+    fetch(`https://64786ff4362560649a2dc442.mockapi.io/api/restaurants/${this.props.router.params.id}`).then((response)=>{
       response.json().then((result)=> {
         // this.setState({list:result})
         console.warn(result)
@@ -29,7 +29,7 @@ import withRouter from './withRouter';
     
   }
   update(){
-       fetch(`http://localhost:3000/restaurants/${this.state.id}`,{
+       fetch(`https://64786ff4362560649a2dc442.mockapi.io/api/restaurants/${this.state.id}`,{
         method:"PUT",
         headers:{
           'Content-Type':"application/json"

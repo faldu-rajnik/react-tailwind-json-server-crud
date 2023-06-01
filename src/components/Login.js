@@ -20,7 +20,7 @@ class Login extends Component {
     login(){
       
         if(this.state.name!=="")
-        fetch(`http://localhost:3000/login/?q=${this.state.name}`,{
+        fetch(`https://64786ff4362560649a2dc442.mockapi.io/api/login/?q=${this.state.name}`,{
             // method:"POST",
             // headers:{
             //   'Content-Type':"application/json"

@@ -12,7 +12,7 @@ import withRouter from './withRouter';
   }
   componentDidMount()
   {
-    fetch("http://localhost:3000/restaurants").then((response)=>{
+    fetch("https://64786ff4362560649a2dc442.mockapi.io/api/restaurants").then((response)=>{
       response.json().then((result)=> {
         this.setState({list:result})
       })
@@ -21,7 +21,7 @@ import withRouter from './withRouter';
   }
   delete(id)
   {
-    fetch(`http://localhost:3000/restaurants/${id}`,{
+    fetch(`https://64786ff4362560649a2dc442.mockapi.io/api/restaurants/${id}`,{
       method:"DELETE",
       headers:{
         'Content-Type':"application/json"

@@ -17,7 +17,7 @@ class RestaurantCreate extends Component {
 
   create()
   {
-     fetch("http://localhost:3000/restaurants",{
+     fetch("https://64786ff4362560649a2dc442.mockapi.io/api/restaurants",{
       method:"POST",
       headers:{
         'Content-Type':"application/json"

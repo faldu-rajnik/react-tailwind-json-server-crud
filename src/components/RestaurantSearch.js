@@ -11,7 +11,7 @@ export default class RestaurantSearch extends Component {
     }
     search(key)
     {
-      fetch(`http://localhost:3000/restaurants/?q=${key}`,{
+      fetch(`https://64786ff4362560649a2dc442.mockapi.io/api/restaurants/?q=${key}`,{
      }).then((result)=>{
        result.json().then((resp)=>{
          console.log(resp);
